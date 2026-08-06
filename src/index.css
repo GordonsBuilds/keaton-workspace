@@ -1,0 +1,85 @@
+@import "tailwindcss";
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #17202b;
+  background: #f5f7f8;
+  font-synthesis: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.panel {
+  background: #fff;
+  border: 1px solid #e2e7eb;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px #17202b08;
+}
+.input {
+  width: 100%;
+  border: 1px solid #dbe2e7;
+  border-radius: 10px;
+  padding: 9px 11px;
+  background: #fff;
+  font-size: 13px;
+  outline: none;
+}
+.input:focus {
+  border-color: #109f99;
+  box-shadow: 0 0 0 3px #109f9920;
+}
+.btn {
+  border: 1px solid #dbe2e7;
+  border-radius: 9px;
+  padding: 8px 11px;
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+  background: #fff;
+}
+.btn:hover {
+  background: #f2f7f7;
+}
+.btn-primary {
+  background: #0c8d88;
+  color: #fff;
+  border-color: #0c8d88;
+}
+.btn-primary:hover {
+  background: #087a75;
+}
+.danger {
+  color: #b24d4d;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.drag-card {
+  cursor: grab;
+}
+.drag-card:active {
+  cursor: grabbing;
+}
+.dark { color-scheme: dark; background: #10181b; color: #e8f0f0; }
+.dark header, .dark .panel { background: #172326; border-color: #2c3b3e; box-shadow: 0 8px 24px #00000026; }
+.dark body, .dark .min-h-screen { background: #10181b; }
+.dark .bg-slate-50 { background-color: #1d2c2f; }
+.dark .bg-white { background-color: #1a292c; }
+.dark .border-slate-200, .dark .border-slate-300 { border-color: #334548; }
+.dark .text-slate-400 { color: #8da2a5; }
+.dark .text-slate-500, .dark .text-slate-600 { color: #aababc; }
+.dark .text-slate-700 { color: #c7d4d5; }
+.dark .badge { color: #173037; }
+.dark .input, .dark select { background: #142124; color: #e8f0f0; border-color: #385054; }
+.dark .btn { background: #1b2b2e; color: #e8f0f0; border-color: #385054; }
+.dark .btn:hover { background: #26393c; }
+.dark .btn-primary { background: #0c8d88; border-color: #0c8d88; color: white; }
+.dark .bg-teal-50\/40 { background-color: #0b383733; }
