@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Local packaging artifacts
+Keaton-Workspace.zip
+.keaton-publish/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
